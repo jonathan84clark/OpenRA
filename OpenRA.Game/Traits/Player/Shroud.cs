@@ -24,7 +24,7 @@ namespace OpenRA.Traits
 		public readonly string FogCheckboxDescription = "Line of sight is required to view enemy forces";
 
 		[Desc("Default value of the fog checkbox in the lobby.")]
-		public readonly bool FogCheckboxEnabled = true;
+		public readonly bool FogCheckboxEnabled = false;
 
 		[Desc("Prevent the fog enabled state from being changed in the lobby.")]
 		public readonly bool FogCheckboxLocked = false;

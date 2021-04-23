@@ -42,7 +42,7 @@ namespace OpenRA.Mods.Common.Traits
 		public readonly string BuildRadiusCheckboxDescription = "Limits structure placement to areas around Construction Yards";
 
 		[Desc("Default value of the build radius checkbox in the lobby.")]
-		public readonly bool BuildRadiusCheckboxEnabled = true;
+		public readonly bool BuildRadiusCheckboxEnabled = false;
 
 		[Desc("Prevent the build radius state from being changed in the lobby.")]
 		public readonly bool BuildRadiusCheckboxLocked = false;
